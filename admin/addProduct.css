@@ -1,0 +1,22 @@
+.content main .addForm form {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.content main .addForm form div {
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.content main .addForm form .checkbox .cb {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content main .addForm form div .checkbox {
+}
+
+@media screen and (max-width: 576px) {
+  .content main .addForm form {
+    display: grid;
+    grid-template-columns: 100%;
+  }
+}

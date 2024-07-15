@@ -1,0 +1,65 @@
+.content main .product .productHeader {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+.content main .category .categoryHeader {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.content main .product .productHeader button {
+}
+.content main .product .color {
+  padding: 20px 15px;
+}
+.content main .product .category {
+  padding: 20px 15px;
+}
+.content main .product #productColor {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.content main .product #productColor .colorCard {
+  display: flex;
+  border: 1px solid black;
+  width: auto;
+  padding: 5px 0px 5px 5px;
+  border-radius: 10px;
+}
+
+.content main .product #productColor .colorCard p {
+  margin: 0;
+}
+.content main .product #productColor .colorCard .btn {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.content main .category #categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.content main .category #categoryList .categoryCard {
+  display: flex;
+  border: 1px solid black;
+  width: auto;
+  justify-content: center;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  padding-left: 5px;
+}
+.content main .category #categoryList .categoryCard p {
+  margin: 0;
+
+  text-align: center;
+}
